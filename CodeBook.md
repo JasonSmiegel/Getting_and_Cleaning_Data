@@ -24,13 +24,13 @@ The code run_analysis.R executes the following actions to clean the raw data set
 The variables are defined with reference to the source code book as follows:
  * All variable measures are normalized and bounded within [-1,1]
  * xyz is used to denote 3-axial signals in the X, Y and Z directions 
- * The set includes time variables and frequency variables
+ * The set includes time variables and frequency variables summarised into means and standard deviations 
    * Time variables 
      * Accelerometer and gyroscope 3-axial raw signals were captured at a constant rate of 50 Hz (and filtered to remove noise)
-       * time accelleration xyz was split into body and gravity acceleration signals 
-           + time body accelleration xyz 
-           + time gravity accelleration xyz 
-       * time body gyroscope xyz 
+         * time accelleration xyz was split into body and gravity acceleration signals 
+             + time body accelleration xyz 
+             + time gravity accelleration xyz 
+         * time body gyroscope xyz 
      * body linear acceleration and angular velocity were derived in time to obtain jerk signals 
          + time body accelleration jerk xyz 
          + time body gyroscope jerk xyz 
@@ -48,7 +48,6 @@ The variables are defined with reference to the source code book as follows:
      * frequency body accelleration jerk magnitude  
      * frequency body gyroscope magnitude 
      * frequency body gyroscope jerk magnitude 
- * Variables have been summarised into mean and standard deviation measures
  * Additional variables obtained by averaging the signals in a signal window sample:
    * angle gravity mean 
    * angle time body accelleration mean 
