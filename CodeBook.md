@@ -42,7 +42,7 @@ The variables are defined in the source code book as follows:
        * time body gyroscope jerk magnitude  
    * Frequency variables were calculated using a Fast Fourier Transform (FFT)  
      * frequency body accelleration xyz 
-     * frequency body accelleration jerk xyz 
+     * frequency body accelleration jerk xyz  
      * frequency body gyroscope xyz 
      * frequency body accelleration magnitude 
      * frequency body accelleration jerk magnitude  
