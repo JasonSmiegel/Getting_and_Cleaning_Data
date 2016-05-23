@@ -1,6 +1,6 @@
 # Getting and Cleaning Data: course project
 
-This project transforms the raw Human Activity Recognition Using Smartphones Dataset from www.smartlab.ws into a tidy data set
+This project transforms the raw Human Activity Recognition Using Smartphones Dataset from www.smartlab.ws (Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012) into a tidy data set
 
 Files in repository include the following:
 * source data in a sub folder named .\UCI HAR Dataset
