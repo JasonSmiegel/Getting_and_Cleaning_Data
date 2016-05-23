@@ -29,30 +29,29 @@ The variables are defined in the source code book as follows:
      * Accelerometer and gyroscope 3-axial raw signals were captured at a constant rate of 50 Hz (and filtered to remove noise)
        * time accelleration xyz was split into body and gravity acceleration signals 
          * time body accelleration xyz 
-         * time gravity accelleration xyz
-       * time body gyroscope xyz
+         * time gravity accelleration xyz 
+       * time body gyroscope xyz 
      * body linear acceleration and angular velocity were derived in time to obtain jerk signals 
        * time body accelleration jerk xyz 
        * time body gyroscope jerk xyz 
      * magnitude of these three-dimensional signals were calculated using the Euclidean norm
-       * time body accelleration magnitude
-       * time gravity accelleration magnitude
-       * time body accelleration jerk magnitude
-       * time body gyroscope magnitude
-       * time body gyroscope jerk magnitude 
+       * time body accelleration magnitude 
+       * time gravity accelleration magnitude 
+       * time body accelleration jerk magnitude 
+       * time body gyroscope magnitude 
+       * time body gyroscope jerk magnitude  
    * Frequency variables were calculated using a Fast Fourier Transform (FFT)  
-     * frequency body accelleration xyz
-     * frequency body accelleration jerk xyz
-     * frequency body gyroscope xyz
-     * frequency body accelleration magnitude
-     * frequency body accelleration jerk magnitude 
-     * frequency body gyroscope magnitude
-     * frequency body gyroscope jerk magnitude
+     * frequency body accelleration xyz 
+     * frequency body accelleration jerk xyz 
+     * frequency body gyroscope xyz 
+     * frequency body accelleration magnitude 
+     * frequency body accelleration jerk magnitude  
+     * frequency body gyroscope magnitude 
+     * frequency body gyroscope jerk magnitude 
  * Variables have been summarised into mean and standard deviation measures
  * Additional variables obtained by averaging the signals in a signal window sample:
-   * angle gravity mean
-   * angle time body accelleration mean
-   * angle time body accelleration jerk mean
-   * angle time body gyroscope mean
-   * angle time body gyroscope jerk mean
-
+   * angle gravity mean 
+   * angle time body accelleration mean 
+   * angle time body accelleration jerk mean 
+   * angle time body gyroscope mean 
+   * angle time body gyroscope jerk mean 
