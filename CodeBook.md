@@ -23,13 +23,14 @@ The code run_analysis.R executes the following actions to clean the raw data set
 
 The variables are defined in the source code book as follows:
  * All variable measures are normalized and bounded within [-1,1]
+ * xyz is used to denote 3-axial signals in the X, Y and Z directions 
  * The set includes time variables and frequency variables
    * Time variables 
      * Accelerometer and gyroscope 3-axial raw signals were captured at a constant rate of 50 Hz (and filtered to remove noise)
        * time accelleration xyz was split into body and gravity acceleration signals 
          * time body accelleration xyz 
          * time gravity accelleration xyz
-       * time gyroscope xyz
+       * time body gyroscope xyz
      * body linear acceleration and angular velocity were derived in time to obtain jerk signals 
        * time body accelleration jerk xyz 
        * time body gyroscope jerk xyz 
@@ -43,40 +44,15 @@ The variables are defined in the source code book as follows:
      * frequency body accelleration xyz
      * frequency body accelleration jerk xyz
      * frequency body gyroscope xyz
+     * frequency body accelleration magnitude
      * frequency body accelleration jerk magnitude 
      * frequency body gyroscope magnitude
      * frequency body gyroscope jerk magnitude
-
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
-
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
-
-The set of variables that were estimated from these signals are: 
-* mean(): Mean value
-* std(): Standard deviation
-
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+ * Variables have been summarised into mean and standard deviation measures
+ * Additional variables obtained by averaging the signals in a signal window sample:
+   * angle gravity mean
+   * angle time body accelleration mean
+   * angle time body accelleration jerk mean
+   * angle time body gyroscope mean
+   * angle time body gyroscope jerk mean
 
